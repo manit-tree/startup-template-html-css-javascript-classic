@@ -1,0 +1,17 @@
+@import "reset";
+
+body {
+    font-family: google sans, roboto, sans-serif;
+    color: #555;
+    padding: 2em;
+}
+
+main {
+    max-width: 720px;
+    margin: 0 auto;
+
+    h1 {
+        text-align: center;
+        color: #111;
+    }
+}
