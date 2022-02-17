@@ -4,13 +4,46 @@ This is a startup template for developer who develop web applicaiton in old styl
 
 ## How to use
 
-- clone this template
-- move into folder
-- run npm i [to install dependencies]
-- run npm run sass:watch [make sass genrating css files automati when chaged]
-- run live-server [to start development server]
-- when ready to deploy, run npm build
-- change script src to ./dst/index.js (the bundle file)
+clone this template
+```
+git clone https://github.com/manit-tree/startup-template-html-css-javascript-classic.git
+```
+
+move into folder
+```
+cd startup-template-html-css-javascript
+```
+
+install live server (globally) or use liver server extention in your VS Code
+
+```
+npm i -g live-server
+```
+
+install dependencies
+```
+npm i
+```
+
+start watching css and scss files
+```
+npm run sass:watch
+```
+
+start live server
+```
+live-serever
+```
+
+bundle everything when ready to deploy
+```
+npm run build
+```
+
+change src or your script tag to the bundle file
+```
+<script src="/dist/index.js"></script>
+```
 
 ## Scripts
 
